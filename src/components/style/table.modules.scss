@@ -1,0 +1,16 @@
+#app{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 265px;
+    text-align: center;
+    overflow-y: overlay;
+}
+.box{
+    display: flex;
+    border-left: solid 1px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6px;
+}

@@ -1,0 +1,41 @@
+.form{
+    display: flex;
+    height: 80%;
+    width: 65%;
+        input{
+            border-radius: 0;
+            border: none;
+        }
+        button{
+    border: #fff;
+    background-color: #fff;
+    width: 10%;
+    }
+}
+.absoluteEvery{
+    position: absolute;
+    top: 90px;
+    left: 10%;
+    color: #fff;
+    font-size: 33px;
+    font-family: monospace;
+    .saveLocation{
+    height: 25px;
+    width: 164px;
+    font-size: 11px;
+    border: none;
+    color: #fff;
+    background-color: #444547;
+    position: absolute;
+    top: 12px;
+    margin-left: 5px;
+    .invert{
+        filter: invert(100%);
+    }
+    }
+}
+.absoluteEvery{ text-transform: lowercase; }
+.absoluteEvery> span { display: inline-block; }
+.absoluteEvery> span:first-letter {
+  text-transform: uppercase;
+}

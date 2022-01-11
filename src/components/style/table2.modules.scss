@@ -1,0 +1,52 @@
+#appas{
+    display:flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    overflow-y: auto;
+    background-image: url("debesys.png");
+    background-size: cover;
+    #datedisplay{
+        display: flex;
+        height: 300px;
+        align-items: flex-end;
+        font-family: emoji;
+        font-size: x-large;
+        }
+        .datedisplay2{
+            height: 100px;
+            width: 200px;
+            background-color: #fff;
+            margin:0px 1px;
+        }
+        .datedisplay2:nth-child(1){
+            height: 160px;
+            width: 220px;
+        }
+        .datedisplay2:nth-child(1){
+            border-top: 4px solid rgb(223, 17, 17);
+        }
+        .datedisplay2:hover:nth-child(1){
+            border-bottom: 4px solid rgb(223, 17, 17);
+            border-top:none;
+        }
+        .datedisplay2:nth-child(n+2){
+            border-bottom: 4px solid rgb(223, 17, 17);
+            border-top:none;
+        }
+        .datedisplay2:hover:nth-child(n+2){
+            border-top: 4px solid rgb(223, 17, 17);
+            border-bottom:none;
+        }
+    
+    .temp{
+        display: flex;
+        margin: 0px -200px;
+        font-family: emoji;
+        font-size: x-large;
+        width: 200px;
+        padding: 0px 15px 0px 0px;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+  }
+}
